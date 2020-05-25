@@ -23,7 +23,7 @@ logging:
     cn.enjoy.mapper: debug
 
 eureka:
-  client: # 客户端进行Eureka注册的配置
+  client:
     service-url:
       defaultZone: http://admin:enjoy@eureka1:7001/eureka
   instance:
